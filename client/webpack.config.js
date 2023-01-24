@@ -67,11 +67,7 @@ module.exports = () => {
             }
           }
         },
-        {
-          test: /\.(m?js|map)$/,
-          enforce: 'pre',
-          use: ['source-map-loader']
-        }
+        
       ],
     },
   };
